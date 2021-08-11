@@ -14,7 +14,9 @@ Transformers do not necessarily process the data in order. Rather, the attention
 ![Articheture](https://brooksj.com/images/NLP/transformer_1.png)
 
 Firstly, embed the text input data into input embedding and then ecode them with positional encoding.
+
 Secondly, pass the position encoded input embedding into multi-self attention block and sublayer ( with multi-head attention), the output will be out attention matrix.
+
 Lastly, the attention matrix will be feed into feedforward neural network and the result will be passed into next encoder block and we repeat the same process N times.
 
 ## Pytorch Implementation 
